@@ -139,12 +139,12 @@ CCCapacities = {
         [18] = function(v) return 40 end,                  -- Capacity = 40
         [19] = function(v) return 50 end,                  -- Capacity = 50
         [20] = function(v) return 75 end,                  -- Capacity = 75
-        [21] = function(v) return SandboxVars.CustomizableBackpacks.CapacityStatic end,   -- Capacity = Custom - Static Set
+        [21] = function(v) return SandboxVars.CustomizableBackpacks.CapacityStaticSet end,   -- Capacity = Custom - Static Set
         [22] = function(v) return ZombRand(SandboxVars.CustomizableBackpacks.CapacityRandomizedMin, SandboxVars.CustomizableBackpacks.CapacityRandomizedMax) end,  -- Capacity = Custom - Randomized
         [23] = function(v) return v.Capacity * SandboxVars.CustomizableBackpacks.CapacityPercentage end,  -- Capacity = Custom - Percentage
-        [24] = function(v) return v.Capacity + SandboxVars.CustomizableBackpacks.CapacityStatic end,   -- Capacity = Custom - Static Increase
-        [25] = function(v) return v.CapacityWB + SandboxVars.CustomizableBackpacks.CapacityStatic end,   -- Capacity = Custom - Static Increase Well Balanced
-        [26] = function(v) return v.CapacityB + SandboxVars.CustomizableBackpacks.CapacityStatic end,   -- Capacity = Custom - Static Increase Balanced
+        [24] = function(v) return v.Capacity + SandboxVars.CustomizableBackpacks.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase
+        [25] = function(v) return v.CapacityWB + SandboxVars.CustomizableBackpacks.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase Well Balanced
+        [26] = function(v) return v.CapacityB + SandboxVars.CustomizableBackpacks.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase Balanced
 }
     
 
@@ -169,12 +169,12 @@ CCBagsCapacities = {
         [18] = function(v) return 40 end,                  -- Capacity = 40
         [19] = function(v) return 50 end,                  -- Capacity = 50
         [20] = function(v) return 75 end,                  -- Capacity = 75
-        [21] = function(v) return SandboxVars.CustomizableBags.CapacityStatic end,   -- Capacity = Custom - Static
+        [21] = function(v) return SandboxVars.CustomizableBags.CapacityStaticSet end,   -- Capacity = Custom - Static
         [22] = function(v) return ZombRand(SandboxVars.CustomizableBags.CapacityRandomizedMin, SandboxVars.CustomizableBags.CapacityRandomizedMax) end,  -- Capacity = Custom - Randomized
         [23] = function(v) return v.Capacity * SandboxVars.CustomizableBags.CapacityPercentage end,  -- Capacity = Custom - Percentage
-        [24] = function(v) return v.Capacity + SandboxVars.CustomizableBags.CapacityStatic end,   -- Capacity = Custom - Static Increase
-        [25] = function(v) return v.CapacityWB + SandboxVars.CustomizableBags.CapacityStatic end,   -- Capacity = Custom - Static Increase Well Balanced
-        [26] = function(v) return v.CapacityB + SandboxVars.CustomizableBags.CapacityStatic end,   -- Capacity = Custom - Static Increase Balanced
+        [24] = function(v) return v.Capacity + SandboxVars.CustomizableBags.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase
+        [25] = function(v) return v.CapacityWB + SandboxVars.CustomizableBags.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase Well Balanced
+        [26] = function(v) return v.CapacityB + SandboxVars.CustomizableBags.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase Balanced
 }
     
 
@@ -199,12 +199,12 @@ CCChestRigsCapacities = {
         [18] = function(v) return 40 end,                  -- Capacity = 40
         [19] = function(v) return 50 end,                  -- Capacity = 50
         [20] = function(v) return 75 end,                  -- Capacity = 75
-        [21] = function(v) return SandboxVars.CustomizableChestRigs.CapacityStatic end,   -- Capacity = Custom - Static
+        [21] = function(v) return SandboxVars.CustomizableChestRigs.CapacityStaticSet end,   -- Capacity = Custom - Static
         [22] = function(v) return ZombRand(SandboxVars.CustomizableChestRigs.CapacityRandomizedMin, SandboxVars.CustomizableBackpacks.CapacityRandomizedMax) end,  -- Capacity = Custom - Randomized
         [23] = function(v) return v.Capacity * SandboxVars.CustomizableChestRigs.CapacityPercentage end,  -- Capacity = Custom - Percentage
-        [24] = function(v) return v.Capacity + SandboxVars.CustomizableChestRigs.CapacityStatic end,   -- Capacity = Custom - Static Increase
-        [25] = function(v) return v.CapacityWB + SandboxVars.CustomizableChestRigs.CapacityStatic end,   -- Capacity = Custom - Static Increase Well Balanced
-        [26] = function(v) return v.CapacityB + SandboxVars.CustomizableChestRigs.CapacityStatic end,   -- Capacity = Custom - Static Increase Balanced
+        [24] = function(v) return v.Capacity + SandboxVars.CustomizableChestRigs.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase
+        [25] = function(v) return v.CapacityWB + SandboxVars.CustomizableChestRigs.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase Well Balanced
+        [26] = function(v) return v.CapacityB + SandboxVars.CustomizableChestRigs.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase Balanced
 }
     
     
@@ -229,12 +229,12 @@ CCFannyPacksCapacities = {
         [18] = function(v) return 40 end,                  -- Capacity = 40
         [19] = function(v) return 50 end,                  -- Capacity = 50
         [20] = function(v) return 75 end,                  -- Capacity = 75
-        [21] = function(v) return SandboxVars.CustomizableFannyPacks.CapacityStatic end,   -- Capacity = Custom - Static
+        [21] = function(v) return SandboxVars.CustomizableFannyPacks.CapacityStaticSet end,   -- Capacity = Custom - Static
         [22] = function(v) return ZombRand(SandboxVars.CustomizableFannyPacks.CapacityRandomizedMin, SandboxVars.CustomizableFannyPacks.CapacityRandomizedMax) end,  -- Capacity = Custom - Randomized
         [23] = function(v) return v.Capacity * SandboxVars.CustomizableFannyPacks.CapacityPercentage end,  -- Capacity = Custom - Percentage
-        [24] = function(v) return v.Capacity + SandboxVars.CustomizableFannyPacks.CapacityStatic end,   -- Capacity = Custom - Static Increase
-        [25] = function(v) return v.CapacityWB + SandboxVars.CustomizableFannyPacks.CapacityStatic end,   -- Capacity = Custom - Static Increase Well Balanced
-        [26] = function(v) return v.CapacityB + SandboxVars.CustomizableFannyPacks.CapacityStatic end,   -- Capacity = Custom - Static Increase Balanced
+        [24] = function(v) return v.Capacity + SandboxVars.CustomizableFannyPacks.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase
+        [25] = function(v) return v.CapacityWB + SandboxVars.CustomizableFannyPacks.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase Well Balanced
+        [26] = function(v) return v.CapacityB + SandboxVars.CustomizableFannyPacks.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase Balanced
 }
     
     
@@ -259,12 +259,12 @@ CCSatchelsCapacities = {
         [18] = function(v) return 40 end,                  -- Capacity = 40
         [19] = function(v) return 50 end,                  -- Capacity = 50
         [20] = function(v) return 75 end,                  -- Capacity = 75
-        [21] = function(v) return SandboxVars.CustomizableSatchels.CapacityStatic end,   -- Capacity = Custom - Static
+        [21] = function(v) return SandboxVars.CustomizableSatchels.CapacityStaticSet end,   -- Capacity = Custom - Static
         [22] = function(v) return ZombRand(SandboxVars.CustomizableSatchels.CapacityRandomizedMin, SandboxVars.CustomizableBackpacks.CapacityRandomizedMax) end,  -- Capacity = Custom - Randomized
         [23] = function(v) return v.Capacity * SandboxVars.CustomizableSatchels.CapacityPercentage end,  -- Capacity = Custom - Percentage
-        [24] = function(v) return v.Capacity + SandboxVars.CustomizableSatchels.CapacityStatic end,   -- Capacity = Custom - Static Increase
-        [25] = function(v) return v.CapacityWB + SandboxVars.CustomizableSatchels.CapacityStatic end,   -- Capacity = Custom - Static Increase Well Balanced
-        [26] = function(v) return v.CapacityB + SandboxVars.CustomizableSatchels.CapacityStatic end,   -- Capacity = Custom - Static Increase Balanced
+        [24] = function(v) return v.Capacity + SandboxVars.CustomizableSatchels.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase
+        [25] = function(v) return v.CapacityWB + SandboxVars.CustomizableSatchels.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase Well Balanced
+        [26] = function(v) return v.CapacityB + SandboxVars.CustomizableSatchels.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase Balanced
 }
     
     
@@ -289,12 +289,12 @@ CContainersCapacities = {
         [18] = function(v) return 40 end,                  -- Capacity = 40
         [19] = function(v) return 50 end,                  -- Capacity = 50
         [20] = function(v) return 75 end,                  -- Capacity = 75
-        [21] = function(v) return SandboxVars.CustomizableContainers.CapacityStatic end,   -- Capacity = Custom - Static
+        [21] = function(v) return SandboxVars.CustomizableContainers.CapacityStaticSet end,   -- Capacity = Custom - Static
         [22] = function(v) return ZombRand(SandboxVars.CustomizableContainers.CapacityRandomizedMin, SandboxVars.CustomizableBackpacks.CapacityRandomizedMax) end,  -- Capacity = Custom - Randomized
         [23] = function(v) return v.Capacity * SandboxVars.CustomizableContainers.CapacityPercentage end,  -- Capacity = Custom - Percentage
-        [24] = function(v) return v.Capacity + SandboxVars.CustomizableContainers.CapacityStatic end,   -- Capacity = Custom - Static Increase
-        [25] = function(v) return v.CapacityWB + SandboxVars.CustomizableContainers.CapacityStatic end,   -- Capacity = Custom - Static Increase Well Balanced
-        [26] = function(v) return v.CapacityB + SandboxVars.CustomizableContainers.CapacityStatic end,   -- Capacity = Custom - Static Increase Balanced
+        [24] = function(v) return v.Capacity + SandboxVars.CustomizableContainers.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase
+        [25] = function(v) return v.CapacityWB + SandboxVars.CustomizableContainers.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase Well Balanced
+        [26] = function(v) return v.CapacityB + SandboxVars.CustomizableContainers.CapacityStaticIncrease end,   -- Capacity = Custom - Static Increase Balanced
 }
     
     
